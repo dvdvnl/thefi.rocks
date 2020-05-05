@@ -1,0 +1,86 @@
+body {
+  background: #111;
+  background: linear-gradient(-45deg, rgba(2, 0, 36, 1) 15%, rgba(184, 0, 255, 1) 250%);
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+#logo,
+#slogan,
+#links {
+  display: block;
+  margin: 0 auto;
+  width: 33%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #logo,
+  #slogan,
+  #links {
+    width: 75%;
+  }
+}
+
+#slogan {
+  color: #aaa;
+  font-size: 110%;
+  text-align: center;
+  text-shadow: rgba(184, 0, 255, 1) 0 0 7px;
+  padding-bottom: 42px;
+}
+
+#links {
+  text-align: center;
+}
+
+#links a {
+  color: #aaa;
+  text-decoration: none;
+  text-shadow: rgba(184, 0, 255, 1) 0 0 7px;
+}
+
+#links a+a {
+  margin-left: 7px;
+}
+
+#links a:hover {
+  text-shadow: #2a9fff 0 0 7px;
+}
+
+#circle,
+#background {
+  animation: flick1 4.5s linear infinite;
+}
+
+#i {
+  animation: flick1 3.1s linear infinite;
+}
+
+@keyframes flick1 {
+
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
+    opacity: 1;
+
+  }
+
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
+    opacity: 0.5;
+  }
+}

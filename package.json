@@ -1,0 +1,23 @@
+{
+  "name": "the-fi",
+  "version": "1.0.0",
+  "description": "the F.I. rocks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvdvnl/thefi.rocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvdvnl/thefi.rocks/issues"
+  },
+  "homepage": "https://github.com/dvdvnl/thefi.rocks#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
