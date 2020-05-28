@@ -1,3 +1,4 @@
+// Epic misdirections
 loadJSON(mysterymachine);
 
 function loadJSON(callback) {
@@ -19,4 +20,13 @@ function mysterymachine(mysteries) {
 
 function megalize(mystery) {
   return mystery.split(' ').map(x => x.charAt(0).toUpperCase() + x.slice(1)).join(' ');
+}
+
+// Epic sound FX
+var sound = new Howl({
+  src: ['/src/lulululu.wav']
+});
+
+function lulululu() {
+  sound.play();
 }

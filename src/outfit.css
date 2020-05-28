@@ -38,17 +38,18 @@ body {
   text-align: center;
 }
 
-#links a {
+#links>* {
   color: #aaa;
+  cursor: pointer;
   text-decoration: none;
   text-shadow: rgba(184, 0, 255, 1) 0 0 7px;
 }
 
-#links a+a {
+#links>* {
   margin-left: 7px;
 }
 
-#links a:hover {
+#links>*:hover {
   text-shadow: #2a9fff 0 0 7px;
 }
 
